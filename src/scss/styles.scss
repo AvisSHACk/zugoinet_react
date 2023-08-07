@@ -1,0 +1,27 @@
+//config
+@import "config/vars";
+@import "config/mixins";
+
+//colors
+@import "theme/colors";
+@import "theme/tipography";
+
+//base
+@import "base/base";
+@import "utils/banner";
+
+//layout
+@import "layout/layout";
+@import "layout/header";
+@import "layout/banner";
+@import "layout/main";
+@import "layout/cards";
+@import "layout/footer";
+@import "layout/forms";
+
+//componentes
+@import "components/logo";
+@import "components/menu";
+@import "components/user";
+@import "components/banner";
+@import "components/card";

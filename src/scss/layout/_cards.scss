@@ -1,0 +1,47 @@
+.Cards {
+    overflow: hidden;
+    margin-bottom: 4rem;
+    &__header {
+        display: flex;
+
+        a {
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+            color: $enlaces;
+        }
+
+        margin-bottom: 1rem;
+    }
+
+    &__track {
+        position: relative;
+    }
+
+    &__container {
+        display: flex;
+        // max-width: 90vw;
+        width: fit-content;
+        gap: 16px;
+        position: relative;
+        top: 0;
+        left: 0;
+        transition: .5s ease-in-out;
+    }
+
+    .prev,
+    .next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%) translateX(-50%);
+        z-index: 1;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    .next {
+        right: 0;
+
+        transform: translateY(-50%) translateX(50%);
+    }
+}
